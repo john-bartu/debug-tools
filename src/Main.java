@@ -1,0 +1,38 @@
+import pl.janbartula.java.utils.Debug;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        Debug.Log("Test Log");
+        Debug.Log("Test Log Purple", Debug.Color.PURPLE);
+        Debug.Log("Mytag", "Test Log");
+        Debug.LogData("Test Log Debug");
+        Debug.LogError("Test Log Error");
+        Debug.LogInfo("Test Log Info");
+        Debug.LogStatus("Test Log Status");
+
+
+        Debug.LogStatus("Test Line:");
+        Debug.LogLine();
+
+
+        Debug.LogStatus("Test patterned line:");
+        Debug.LogLine("-");
+
+
+        Debug.LogStatus("Test Spacer:");
+        Debug.LogSpacer();
+
+
+        Debug.SetSilent(true);
+        Debug.Log("Data Logs are not when SilentMode is turned on:", Debug.Color.RED);
+        Debug.LogData("Test Log Debug");
+        Debug.LogLine("^");
+
+    }
+}
+
+
+
