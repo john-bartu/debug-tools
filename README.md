@@ -3,8 +3,8 @@ Lightweight and easy to learn java tool - Increases the readability of your cons
 
 ## Description
 This tool will help you organize and increase the speed of reading data from the console
-
-![alt text](https://raw.githubusercontent.com/john-bartu/debug-tools/origin/showcase.png)
+#####Preview how it works:
+![alt text](https://raw.githubusercontent.com/john-bartu/debug-tools/master/showcase.png)
 
 ###Basic
 `Debug.Log("EXAMPLE");` - it simple print message to console
