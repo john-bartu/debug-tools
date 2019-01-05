@@ -6,7 +6,7 @@ This tool will help you organize and increase the speed of reading data from the
 #####Preview how it works:
 ![alt text](https://raw.githubusercontent.com/john-bartu/debug-tools/master/showcase.png)
 
-###Basic
+### Basic
 
 `Debug.Log("EXAMPLE");` - it simple print message to console
 
@@ -15,7 +15,7 @@ This tool will help you organize and increase the speed of reading data from the
 `Debug.Log("TAG", "EXAMPLE");` - it print message with specified tag
 
 
-###Default tags
+### Default tags
 
 `Debug.LogData("EXAMPLE");` - Logs with data it should be messages which are for example raw data of server packets sent or received from client - they can be turned of by turning silent mode
 
@@ -26,7 +26,7 @@ This tool will help you organize and increase the speed of reading data from the
 `Debug.LogStatus("EXAMPLE");` - Status logs should be used when example: Server is turend on, Something is calculating or there is end of some big function, zip is extracted etc.
 
 
-###Lines 
+### Lines 
 
 `Debug.LogLine();` - draw line in Console
 
