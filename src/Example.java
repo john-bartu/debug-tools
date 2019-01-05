@@ -4,10 +4,6 @@ public class Example {
 
     public static void main(String[] args) {
 
-        Debug.LogSpacer();
-        Debug.LogSpacer();
-        Debug.LogSpacer();
-        Debug.LogSpacer();
 
         Debug.Log("Test Log");
         Debug.Log("Test Log Purple", Debug.Color.PURPLE);
@@ -19,22 +15,11 @@ public class Example {
         Debug.Log("Test Spacer:");
         Debug.LogSpacer();
 
-
         Debug.Log("Test Line:");
         Debug.LogLine();
 
-
         Debug.Log("Test patterned line:");
         Debug.LogLine("-");
-
-        Debug.LogSpacer();
-        Debug.LogSpacer();
-        Debug.LogSpacer();
-        Debug.LogSpacer();
-        Debug.LogSpacer();
-        Debug.LogSpacer();
-
-
 
         Debug.SetSilent(true);
         Debug.Log("Data Logs are not when SilentMode is turned on:", Debug.Color.RED);
