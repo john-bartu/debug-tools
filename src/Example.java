@@ -4,6 +4,10 @@ public class Example {
 
     public static void main(String[] args) {
 
+        Debug.LogSpacer();
+        Debug.LogSpacer();
+        Debug.LogSpacer();
+        Debug.LogSpacer();
 
         Debug.Log("Test Log");
         Debug.Log("Test Log Purple", Debug.Color.PURPLE);
@@ -12,18 +16,24 @@ public class Example {
         Debug.LogError("Test Log Error");
         Debug.LogInfo("Test Log Info");
         Debug.LogStatus("Test Log Status");
+        Debug.Log("Test Spacer:");
+        Debug.LogSpacer();
 
 
-        Debug.LogStatus("Test Line:");
+        Debug.Log("Test Line:");
         Debug.LogLine();
 
 
-        Debug.LogStatus("Test patterned line:");
+        Debug.Log("Test patterned line:");
         Debug.LogLine("-");
 
-
-        Debug.LogStatus("Test Spacer:");
         Debug.LogSpacer();
+        Debug.LogSpacer();
+        Debug.LogSpacer();
+        Debug.LogSpacer();
+        Debug.LogSpacer();
+        Debug.LogSpacer();
+
 
 
         Debug.SetSilent(true);

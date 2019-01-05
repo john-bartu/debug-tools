@@ -2,8 +2,9 @@ package pl.janbartula.java.utils;
 
 /**
  * Increases the readability of the console
- * @author john_bartu
+ * @author Jan Bartula
  * @version 1.1
+ * https://janbartula.pl
  */
 
 public class Debug {
