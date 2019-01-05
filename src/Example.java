@@ -1,6 +1,6 @@
 import pl.janbartula.java.utils.Debug;
 
-public class Main {
+public class Example {
 
     public static void main(String[] args) {
 
@@ -30,6 +30,7 @@ public class Main {
         Debug.Log("Data Logs are not when SilentMode is turned on:", Debug.Color.RED);
         Debug.LogData("Test Log Debug");
         Debug.LogLine("^");
+
 
     }
 }
