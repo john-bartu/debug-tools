@@ -7,6 +7,7 @@ This tool will help you organize and increase the speed of reading data from the
 ![alt text](https://raw.githubusercontent.com/john-bartu/debug-tools/master/showcase.png)
 
 ###Basic
+
 `Debug.Log("EXAMPLE");` - it simple print message to console
 
 `Debug.Log("EXAMPLE, Debug.Color.PURPLE);` - it print message with specified color
@@ -15,6 +16,7 @@ This tool will help you organize and increase the speed of reading data from the
 
 
 ###Default tags
+
 `Debug.LogData("EXAMPLE");` - Logs with data it should be messages which are for example raw data of server packets sent or received from client - they can be turned of by turning silent mode
 
 `Debug.LogError("EXAMPLE");` - Logs of Exepctions or other errors in your programm
@@ -25,6 +27,7 @@ This tool will help you organize and increase the speed of reading data from the
 
 
 ###Lines 
+
 `Debug.LogLine();` - draw line in Console
 
 `Debug.LogLine("-");` - draw line in Console by specified String
